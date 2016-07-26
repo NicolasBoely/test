@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>First Bootstrap Test</title>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+            <img class="img-responsive title-logo" src="http://placekitten.com/200/200" alt="Web logo">
+        </div>
+        <div class="col-md-6 text-right">
+            <h1 class="title-super">Nicolas Boely</h1>
+            <h4>First Bootstrap Testing</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <img class="img-responsive" src="http://placekitten.com/1400/700" alt="Web logo">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Featured work</h2>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <img class="img-responsive  img-list" src="http://placekitten.com/400/400" alt="Web logo">
+          <h3>Abc Def</h3>
+          <p>test paragraph 1</p>
+        </div>
+        <div class="col-md-4 text-orange">
+          <img class="img-responsive  img-list" src="http://placekitten.com/400/400" alt="Web logo">
+          <h3>Ghi Jkl</h3>
+          <p>test paragraph 2</p>
+        </div>
+        <div class="col-md-4">
+          <img class="img-responsive  img-list" src="http://placekitten.com/400/400" alt="Web logo">
+          <h3 data-toggle="tooltip" title="Hooray!">Mno Pqr</h3>
+          <p>test paragraph 3</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 text-center">
+        <a href="" class="btn btn-success btn-lg">
+          <span class="glyphicon glyphicon-print"></span> Print
+        </a>
+        </div>
+        <div class="col-md-8"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      $(document).ready(function(){
+          $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
+
+  </body>
+</html>
